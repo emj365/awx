@@ -25,7 +25,7 @@ Vagrant.configure("2") do |config|
 
     # install docker
     curl -fsSL get.docker.com -o get-docker.sh
-    sudo sh get-docker.sh
+    sh get-docker.sh
 
     # install awx
     # git clone https://github.com/ansible/awx.git
